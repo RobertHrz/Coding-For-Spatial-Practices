@@ -1,0 +1,31 @@
+
+body{
+    background-color: rgb(237, 237, 236);
+    color: rgb(70, 123, 170);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 10%;
+}
+
+.box1{
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container{
+    width: 70%;
+    margin: auto;
+}
