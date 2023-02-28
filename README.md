@@ -1,1 +1,0 @@
-# Coding-For-Spatial-Practices
