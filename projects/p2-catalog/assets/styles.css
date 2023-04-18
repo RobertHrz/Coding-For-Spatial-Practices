@@ -5,6 +5,8 @@
     text-decoration: none;
   }
 
+  @media (max-width: 10000px) {
+
 body {
     background-color: #f3f3f3;
     margin: 0;
@@ -12,6 +14,7 @@ body {
 }
 
 header {
+    display: flex;
     margin: 25px;
     height: 100px;
     background-color: rgb(182, 182, 182);
@@ -20,9 +23,19 @@ header {
     border-width: 1px;
     border-color: transparent;
     border-radius: 15px;
-    text-align: center;
+    justify-content: center;
     align-items: center;
-    align-content: center;
+}
+
+.button {
+    display: flex;
+    margin: 25px;
+    height: 100px;
+    background-color: rgba(182, 182, 182, 0);
+    padding: 15x;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -75,7 +88,7 @@ header {
 .pasta-card .text {
     white-space: nowrap;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -84,48 +97,46 @@ header {
     -ms-transform: translate(-50%, -50%);
 }
 
-
 .selected-pasta {
     outline: 3px solid #f00;
   }
-  
+
+  }
 
 
 
-/* 
+  @media (max-width: 960px) {
 
-.hidden {
-    display: none;
+header {
+    height: 60px;
 }
 
-#lightbox {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1{
+    font-size: 20px;
 }
 
-#close-lightbox {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    font-size: 30px;
-    color: white;
+.pasta-card {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: relative;
+    overflow: hidden;
     cursor: pointer;
 }
 
-#lightbox-image {
-    max-width: 90%;
-    max-height: 90%;
+.pasta-card .text {
+    white-space: nowrap;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-#lightbox-caption {
-    color: white;
-    font-size: 16px;
-    margin-top: 10px;
-} */
+  }
