@@ -1,74 +1,100 @@
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
-
+  
 body {
 	font-family: Arial, sans-serif;
-}
-
-header {
-	background-color: #333;
-	padding: 10px;
-}
-
-nav ul {
-	list-style: none;
+	margin: 0;
+	padding: 0;
 	display: flex;
-	justify-content: flex-end;
-}
-
-nav li {
-	margin-left: 20px;
-}
-
-nav li a {
-	color: #fff;
-	text-decoration: none;
-}
-
-main {
-	padding: 50px 0;
-}
-
-.hero {
-	background-image: url('https://archive.dpa-etsam.com/media/thumbs/2020/06/01/contrato_natural_01_n1x2.jpg');
-	background-size: cover;
-	background-position: center;
-	height: 500px;
-	display: flex;
+	flex-direction: column;
 	align-items: center;
 }
-
-.container {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 20px;
-}
-
-h1 {
-	font-size: 60px;
-	color: #fff;
-	margin-bottom: 20px;
-}
-
-p {
-	font-size: 24px;
-	color: #fff;
-	margin-bottom: 40px;
-}
-
-.project {
-	background-color: #f7f7f7;
-	padding: 50px 0;
-}
-
-.row {
+  
+header {
+	background-color: #f6da34;
+	height: 80px;
+	width: 100%;
 	display: flex;
-	flex-wrap: wrap;
+	padding: 0 20px;
+	color: #fff;
+}
+  
+header h1 {
+	font-size: 24px;
 }
 
-.col {
-	flex: 1;
-	padding:
+.container{
+	padding: 50px;
+}
+
+.search-container {
+	background-color: #f6d934;
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+  
+.search-form {
+	display: flex;
+	gap: 10px;
+}
+  
+.search-form input,
+.search-form button {
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+  
+.search-form input {
+	border: 1px solid #ccc;
+}
+  
+.search-form button {
+	background-color: #fff;
+	border: none;
+	color: #000;
+	cursor: pointer;
+}
+  
+.section {
+	padding: 20px;
+	background-color: #fff;
+	margin: 20px;
+	border-radius: 5px;
+	width: 80%;
+}
+
+.section h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.destinations-grid,
+.hotels-grid {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.destination-card,
+.hotel-card {
+	background-color: #f6d934;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+	width: 30%;
+}
+
+footer {
+	background-color: #f6da34;
+	text-align: center;
+	padding: 20px 0;
+	color: #fff;
+	width: 100%;
+}
+  
