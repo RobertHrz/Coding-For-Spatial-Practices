@@ -104,8 +104,7 @@ header {
   }
 
 
-
-  @media (max-width: 960px) {
+@media (max-width: 960px) {
 
 header {
     height: 60px;
