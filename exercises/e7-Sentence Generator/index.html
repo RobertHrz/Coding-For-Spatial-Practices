@@ -4,25 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Sanchez&display=swap" rel="stylesheet">
     <script src="./assets/scripts.js" defer></script>
     <title>Bob Dylan Lyric Generator</title>
 </head>
+
 <body>
-    <header>
-        <h1><abbr title="back to home page"><a href="../../index.html">Bob Dylan Lyric Generator</a></abbr></h1>
-    </header>
 
-    <section>
-        <p>Click the button to get a Bob Dylan lyric:</p>
+    <div class="container">
 
-        <button id="generateButton">Generate Lyric</button>
+        <header>
+            <h1><abbr title="back to home page"><a href="../../index.html">How to get Inspiration</a></abbr></h1>
+        </header>
+    
+        <section>
+    
+            <div class="Dylan">
 
-        <div id="lyricDisplay">
-            <p id="lyric"></p>
-            <p id="songTitle"></p>
-        </div>
+                <div class="HeadPhoto">
+                    <img src="./assets/Bob Dylan.webp" alt="Bob Dylan" id="bobDylanImage">
+                    <div id="clickableArea"></div>
+                </div>
+    
+                <div class="lyricDisplay">
+                    <p id="lyric"></p>
+                    <p id="songTitle"></p>
+                </div>
+    
+            </div>
+            
+            <p>Click the cigarette to get a lyric : )</p>
 
-    </section>
+        </section>
+
+    </div>
 
 </body>
 </html>

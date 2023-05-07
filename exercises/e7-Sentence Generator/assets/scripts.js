@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const generateButton = document.getElementById('generateButton');
+  const clickableArea = document.getElementById('clickableArea');
   const songTitle = document.getElementById('songTitle');
   const lyric = document.getElementById('lyric');
 
@@ -33,10 +33,11 @@ document.addEventListener('DOMContentLoaded', function () {
       const index = Math.floor(Math.random() * lyrics.length);
       return lyrics[index];
     }
-  
-    generateButton.addEventListener('click', function() {
+    
+    clickableArea.addEventListener('click', function() {
       const randomLyric = getRandomLyric();
       songTitle.textContent = randomLyric.title;
       lyric.textContent = randomLyric.text;
     });
+  
   });
