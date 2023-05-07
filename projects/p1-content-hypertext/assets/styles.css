@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 50px 0;
+}
+
+.hero {
+	background-image: url('https://archive.dpa-etsam.com/media/thumbs/2020/06/01/contrato_natural_01_n1x2.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.project {
+	background-color: #f7f7f7;
+	padding: 50px 0;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col {
+	flex: 1;
+	padding:
